@@ -1,0 +1,25 @@
+body {
+/*  font-family: "Comfortaa", Trebuchet MS, Arial, sans-serif; */
+  font-family: Trebuchet MS, Arial, sans-serif;
+}
+html {
+  background-color: rgb(236, 236, 236);
+}
+body {
+  width: 900px;
+  margin: 0 auto;
+}
+header {
+  margin-bottom: 20px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+footer {
+  margin-top: 20px;
+  background-color: rgb(44, 11, 6);
+  color: rgb(255, 231, 235);
+  padding-top: 150px;
+  padding-bottom: 20px;
+  text-align: center;
+}
