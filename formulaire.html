@@ -4,12 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Les 24 heures du Mans</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h2>24 heures du Mans</h2>
+        <h1>24 heures du Mans</h1>
+        <form>
+            <input type="text">
+            <button>Go</button>
+        </form>
     </header>
     <div id="menu">
         <ul>
@@ -18,51 +32,38 @@
             <li><a href="formulaire.html" title="Page 2">Formulaire</a></li>
         </ul>
     </div>
-    <form action="page.php" method="get">
-    </form>
-    <h2>Formulaire</h2>
-    <h3>Informations personnelles</h3>
-    <fieldset>
-        Nom
-        <input type="text" name="nom">
-        Prénom
-        <input type="text" name="prenom">
-        <select name="age">
-            <option value="20">0-20 ans</option>
-            <option value="40" selected>21-40 ans</option>
-            <option value="60">41-60 ans</option>
-            <option value="80">61-80 ans</option>
-        </select>
-    </fieldset>
-    <h3>Compte à créer</h3>
-    <fieldset>
-        Login
-        <input type="text" name="login">
-        Password
-        <input type="password" name="pass">
-        <p>S'abonner à la newsletter :
-            <label>Oui<input type="radio" name="news" value="1"></label>
-            <label>Non<input type="radio" name="news" value="0"></label>
-    </fieldset>
-    <input type="submit" name="envoi" value="Valider">
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Sit amet mattis vulputate enim nulla aliquet. Non sodales neque sodales ut etiam sit. Ac ut
-        consequat semper viverra. A condimentum vitae sapien pellentesque habitant. Ultrices dui sapien eget mi proin
-        sed libero. Volutpat ac tincidunt vitae semper quis lectus. Morbi tincidunt ornare massa eget egestas. Vitae
-        ultricies leo integer malesuada nunc vel. Vitae congue mauris rhoncus aenean.
-    <p>
-    </p>
-        Purus gravida quis blandit turpis cursus in hac. Volutpat commodo sed egestas egestas fringilla phasellus
-        faucibus scelerisque eleifend. Ultrices sagittis orci a scelerisque purus semper eget. Sit amet est placerat in
-        egestas erat imperdiet sed. Sit amet tellus cras adipiscing enim. Cursus vitae congue mauris rhoncus aenean vel
-        elit. Massa sed elementum tempus egestas sed. Nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi.
-        Feugiat in ante metus dictum at tempor commodo ullamcorper a. Eleifend donec pretium vulputate sapien nec
-        sagittis. Eget nullam non nisi est sit amet. Faucibus pulvinar elementum integer enim. Consectetur purus ut
-        faucibus pulvinar elementum integer. Augue neque gravida in fermentum et sollicitudin ac orci. Nullam ac tortor
-        vitae purus faucibus ornare suspendisse sed nisi.
+    <div>
+        <form action="page.php" method="get">
+        </form>
+        <h2>Formulaire</h2>
+        <h3>Informations personnelles</h3>
+        <fieldset>
+            Nom
+            <input type="text" name="nom">
+            Prénom
+            <input type="text" name="prenom">
+            <select name="age">
+                <option value="20">0-20 ans</option>
+                <option value="40" selected>21-40 ans</option>
+                <option value="60">41-60 ans</option>
+                <option value="80">61-80 ans</option>
+            </select>
+        </fieldset>
+        <h3>Compte à créer</h3>
+        <fieldset>
+            Login
+            <input type="text" name="login">
+            Password
+            <input type="password" name="pass">
+            <p>S'abonner à la newsletter :
+                <label>Oui<input type="radio" name="news" value="1"></label>
+                <label>Non<input type="radio" name="news" value="0"></label>
+        </fieldset>
+        <input type="submit" name="envoi" value="Valider">
 
-    </p>
+
+
+    </div>
 
 
 
@@ -71,10 +72,10 @@
 
 
 
+    <footer>
+        <p>CABARET Ernestin - 2024</p>
 
-
-
-
+    </footer>
 
 
 </body>

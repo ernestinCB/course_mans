@@ -1,6 +1,7 @@
 body {
 /*  font-family: "Comfortaa", Trebuchet MS, Arial, sans-serif; */
   font-family: Trebuchet MS, Arial, sans-serif;
+  font-family: Rubik;
 }
 html {
   background-color: rgb(236, 236, 236);
@@ -8,18 +9,54 @@ html {
 body {
   width: 900px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  grid-template-rows: 1fr auto;
+  padding-top: 90px;
 }
 header {
-  margin-bottom: 20px;
-  padding: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  margin-bottom: 10px;
+  padding: 0.1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: linear-gradient(45deg, red, blue);
+  /*grid-column: 1 / span 2;*/
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 footer {
   margin-top: 20px;
-  background-color: rgb(44, 11, 6);
+  background: linear-gradient(45deg, red, blue);
   color: rgb(255, 231, 235);
-  padding-top: 150px;
+  padding-top: 90px;
   padding-bottom: 20px;
   text-align: center;
+  grid-column: 1 / span 2;
 }
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+header{
+  font-family: Bebas Neue;
+  color: white;
+  font-style: italic;
+}
+#menu {
+  grid-column: 1;
+}
+header {
+  display: flex;
+}
+header h1 {
+  
+  flex-grow: 1;
+}
+header form {
+  
+  margin-top: 29px;
+}
+#map { height: 180px; }
