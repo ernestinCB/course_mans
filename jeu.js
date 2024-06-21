@@ -8,7 +8,7 @@ console.log(tirageAleatoire);
 tirageAleatoire = Math.round(tirageAleatoire);
 console.log(tirageAleatoire);
 
-let jeuContinue = true;
+let jeuContinue = false;
 while (jeuContinue) {
 
     let valeurChoisiParUtilisateur = prompt('Trouve le nombre');

@@ -50,6 +50,7 @@ header{
 }
 header {
   display: flex;
+  z-index: 10000;
 }
 header h1 {
   
@@ -60,3 +61,17 @@ header form {
   margin-top: 29px;
 }
 #map { height: 180px; }
+img{
+  width: 50%;
+}
+#map {
+  height: 500px;
+}
+
+.photo-choisie {
+  max-width: 800px;
+  max-height: 800px;
+  display: block;
+  margin: auto;
+  padding: 2.0em;
+}
